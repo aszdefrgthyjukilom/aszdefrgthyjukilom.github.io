@@ -1,1 +1,0 @@
-# aszdefrgthyjukilom.github.io
