@@ -211,7 +211,7 @@ jQuery(function($) {'use strict';
 		e.preventDefault();
 		var form_status = $('<div class="form_status"></div>');
 		$.ajax({
-			url: $(this).attr('action'),
+			url: '//formspree.io/contact@zsoft-consulting.com',
 			method: 'POST',
 			data: $(this).serialize(),
 			dataType: 'json',
