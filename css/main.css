@@ -248,6 +248,7 @@ ul.nostyle i {
 }
 #main-slider .carousel-content .content{
     font-size: 40px;
+    text-shadow: 1px 1px 0px #000;
     font-family:Roboto;
     font-weight:100;
     font-style:normal;
