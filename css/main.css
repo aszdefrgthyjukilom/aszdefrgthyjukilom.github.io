@@ -62,6 +62,9 @@ hr {
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;
+  font-family:Roboto;
+  font-weight:100;
+  font-style:normal;
 }
 .section-header .section-title:before {
   content: "";
@@ -238,9 +241,17 @@ ul.nostyle i {
 }
 #main-slider .carousel-content .title{
     font-size: 70px;
+    color: #ffffff;
+    text-align:center;
+    text-shadow: 1px 1px 0px #000;
+    font-family:Roboto;
+    font-weight:100;
+    font-style:normal;
+}
+
+.texte-central{
     text-shadow: 1px 1px 0px #000;
     color: #ffffff;
-    line-height: 66px;
     text-align:center;
     font-family:Roboto;
     font-weight:100;
@@ -322,7 +333,7 @@ ul.nostyle i {
   background: rgba(0, 0, 0, 0.1);
 }
 #cta {
-  padding: 50px 0;
+  padding: 40px 0 0;
   background-color: #eeeeee;
 }
 #cta h2 {
@@ -349,10 +360,10 @@ ul.nostyle i {
   color: #14588a;
 }
 #features {
-  padding: 100px 0;
+  padding: 10px 0;
 }
 #features .media.service-box:first-child {
-  margin-top: 80px;
+  margin-top: 10px;
 }
 #services {
   padding: 100px 0 75px;
@@ -566,7 +577,7 @@ ul.nostyle i {
   padding: 100px 0;
 }
 #work-process {
-  padding: 100px 0 50px;
+  padding: 50px 0 0px;
   background: #20222e url(../images/work-process/bg.jpg) no-repeat 0 0;
   background-size: cover;
   color: #fff;
@@ -801,7 +812,7 @@ ul.nostyle i {
   color: #fff;
 }
 #get-in-touch {
-  padding: 50px 0 50px;
+  padding: 10px 0 10px;
   background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
   background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
