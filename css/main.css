@@ -233,6 +233,7 @@ ul.nostyle i {
     font-size: 70px;
     color: #ffffff;
     line-height: 66px;
+    text-align:center;
     font-family:Roboto;
     font-weight:100;
     font-style:normal;
@@ -242,9 +243,10 @@ ul.nostyle i {
     font-family:Roboto;
     font-weight:100;
     font-style:normal;
+    background: rgba(54, 54, 80, 0.5);
 }
-#main-slider .carousel-content .col-sm-6{
-    text-align: center;
+#main-slider .slogan{
+    text-align: justify;
 }
 #main-slider .slider-inner {
     position: absolute;
