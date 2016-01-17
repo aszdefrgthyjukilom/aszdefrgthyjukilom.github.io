@@ -166,14 +166,21 @@ ul.nostyle i {
   height: auto;
   padding: 1px 1px 1px;
 }
+
+.navbar.navbar-default .navbar-brand img {
+    height: 60px;
+    width: auto;
+    padding: 1px 1px 1px;
+}
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
-    background: rgba(255, 255, 255, 0.9);
+    background: linear-gradient(to top, transparent 0, rgba(0,68,118,0.5) 100%) repeat-x;
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
   #main-menu.navbar-default .navbar-nav > li > a {
     padding-top: 30px;
+    text-shadow: 1px 1px #ffffff;
     padding-bottom: 0px;
   }
   #main-menu.navbar-default .navbar-nav > li.active > a,
