@@ -177,9 +177,9 @@ ul.nostyle i {
 }
 @media only screen and (min-width: 768px) {
   #main-menu.navbar-default {
-    background: linear-gradient(to top, rgba(255,255,255,0.8) 30%, rgba(0,28,58,0.5) 100%) repeat-x;
+    background: linear-gradient(to top, rgba(255,255,255,0.7) 0, rgba(0,28,58,0.5) 100%) repeat-x;
     -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 3px 0 rgba(0,28,58,0.5);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
   }
   #main-menu.navbar-default .navbar-nav > li > a {
     padding-top: 30px;
