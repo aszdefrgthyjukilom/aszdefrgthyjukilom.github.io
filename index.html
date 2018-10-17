@@ -443,10 +443,19 @@
             </div>
         </footer>
         <!--/#footer-->
-        
+        <script>
+                function initMap() {
+                    var uluru = {lat: 48.869344, lng: 2.358952 };
+                    var map = new google.maps.Map(document.getElementById('google-map'), {zoom: 8, center: uluru});
+                    var marker = new google.maps.Marker({position: uluru, map: map});
+                }
+        </script>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
+        <script async defer 
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKK_PJPVAO31e7TPGtGm9qLKc7t9bWXzA&callback=initMap">
+        </script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/mousescroll.js"></script>
         <script src="js/smoothscroll.js"></script>
